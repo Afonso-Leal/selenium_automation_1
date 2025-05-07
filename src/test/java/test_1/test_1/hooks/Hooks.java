@@ -1,9 +1,9 @@
 package test_1.test_1.hooks;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
-import cucumber.api.java.After;
-import cucumber.api.java.Before;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
 import org.openqa.selenium.WebDriver;
 public class Hooks {
 

@@ -1,5 +1,5 @@
 @complete
-Feature: Example feature
+Feature: BLAA feature
   
   In order to ...
   As a ...

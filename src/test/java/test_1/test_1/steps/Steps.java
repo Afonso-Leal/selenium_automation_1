@@ -1,11 +1,11 @@
 package test_1.test_1.steps;
 
-import javax.inject.Inject;
+import jakarta.inject.Inject;
 
 import org.openqa.selenium.WebDriver;
 
-import cucumber.api.java.en.Then;
-import cucumber.api.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.Given;
 
 import static org.junit.Assert.assertEquals;
 

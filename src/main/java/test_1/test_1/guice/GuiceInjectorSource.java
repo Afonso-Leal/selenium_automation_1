@@ -3,12 +3,12 @@ package test_1.test_1.guice;
 import com.google.inject.Guice;
 import com.google.inject.Injector;
 
-import cucumber.api.guice.CucumberModules;
-import cucumber.runtime.java.guice.InjectorSource;
+import io.cucumber.guice.CucumberModules;
+import io.cucumber.guice.InjectorSource;
 
 public class GuiceInjectorSource implements InjectorSource {
     @Override
     public Injector getInjector() {
-        return Guice.createInjector(CucumberModules.SCENARIO, new ProjectModule());
+        return Guice.createInjector(CucumberModules.createScenarioModule(), new ProjectModule());
     }
 }
